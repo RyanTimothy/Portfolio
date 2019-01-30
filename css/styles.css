@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300|Montserrat:700,400);
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: rgb(22,10,32);
+    color: #fff;
+    font-family: Montserrat, Helvetica, Times, serif;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+a {
+    color: #ff9166;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #fff;
+}
+
+#splash {
+    padding-top: 180px;
+    min-height: 620px;
+    color: #fff;
+}
+
+.splash-background {
+    background: url("../images/night-sky.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.content-container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.splash-background h1 {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-transform: uppercase;
+    font-weight: normal;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+    margin-bottom: 25px;
+    color: rgba(242,247,251,0.9);
+    text-shadow: 0 3px 0 #b2a98f,0 14px 10px rgba(0,0,0,0.15), 0 24px 2px rgba(0,0,0,0.1), 0 34px 30px rgba(0,0,0,0.1);
+}
+
+.splash-background h2 {
+    text-align: center;
+    font-weight: lighter;
+    font-size: 35px;
+    color: #ddd;
+    text-shadow: 0 1px 0 #555,
+    0 1px 0 #444,
+    0 2px 0 #333,
+    0 5px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    width: 75%;
+}
+
+.skew-container {
+    margin-top: -1px; /*remove AA gap*/
+    transform: skew(0deg, -1.5deg);
+    padding: 3em 0;
+    display: block;
+}
+
+.skew-revert {
+    transform: skew(0deg, 1.5deg);
+}
+
+.night-sky {
+    background-color: #145f7f;
+}
+
+.fire-hot {
+    background-color: #dae2ee;
+}
+
+.full-container {
+    width: 100%;
+    display: block;
+}
+
+.bio-container {
+    padding-bottom: 3em;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 300px;
+    font-size: 22px;
+    text-align: center;
+}
+
+.profile-pic {
+    width: 152px;
+    margin: 20px auto;
+    display: block;
+}
+
+.full-container p {
+    font-size: 22px;
+    text-align: center;
+}
+
+.full-container h1, .full-container h3 {
+    text-align: center;
+}
+
+.center {
+    margin: 0 auto;
+    display: block;
+}
+
+.text-shadow {
+    text-shadow: 1px 2px 1px rgba(0,0,0,0.8);
+}
+
+.dark-text {
+    color: #333;
+}
+
+.box-shadow {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.projects p {
+    font-size: 22px;
+    text-align: center;
+}

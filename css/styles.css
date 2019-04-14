@@ -130,7 +130,10 @@ hr {
 
 .center {
     margin: 0 auto;
-    display: block;
+}
+
+.align-center {
+    text-align: center;
 }
 
 .text-shadow {
